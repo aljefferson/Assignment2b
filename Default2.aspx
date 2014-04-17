@@ -31,12 +31,15 @@
         </tr>
         <tr>
             <td>
-                <asp:Button ID="btnSubmit" runat="server" Text="Confirm" /></td>
+                <asp:Button ID="btnSubmit" runat="server" Text="Confirm" OnClick="btnSubmit_Click" /></td>
             <td>
-                <asp:Label ID="lblError" runat="server" Text=""></asp:Label></td>
+                <asp:Label ID="lblError" runat="server" Text=""></asp:Label>
+            </td>
             
         </tr>
     </table>
-
+    <p>
+        <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label>
+    </p>
 </asp:Content>
 

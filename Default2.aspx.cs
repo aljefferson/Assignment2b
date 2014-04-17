@@ -24,6 +24,7 @@ public partial class Default2 : System.Web.UI.Page
     }
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-
+        string last = txtLastName.Text;
+        Response.Redirect("Default3.aspx?lastname=" + last);
     }
 }
